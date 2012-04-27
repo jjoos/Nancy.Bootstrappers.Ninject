@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>Nancy.Bootstrappers.Ninject</id>
@@ -14,8 +14,8 @@
     <projectUrl>http://nancyfx.org</projectUrl>
 	<dependencies>
       <dependency id="Nancy" />
-	  <dependency id="Ninject" />
-	  <dependency id="Ninject.Extensions.ChildKernel" />
+	  <dependency id="Ninject" version="3.0.0.15" />
+	  <dependency id="Ninject.Extensions.ChildKernel" version="3.0.0.5" />
     </dependencies> 
     <tags>Nancy Ninject</tags>
   </metadata>
